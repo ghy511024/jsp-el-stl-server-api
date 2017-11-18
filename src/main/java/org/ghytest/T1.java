@@ -26,7 +26,7 @@ public class T1 {
 //            context.setAttribute(Constants.JSP_TAGLIBRARY_CACHE, taglibs);
             System.out.println("0");
             JspC jspc = new JspC();
-           String[] arg0 = {"-uriroot", "E:\\develop\\workespace\\letvgit\\zyuser\\ZYUser\\src\\main\\webapp\\WEB-INF\\jsp", "-d", "E:\\develop\\workespace\\vue\\fis3-parser-vue-component\\test\\src\\html", 
+           String[] arg0 = {"-uriroot", "E:\\develop\\workspace\\letvgit\\zyuser\\ZYUser\\src\\main\\webapp\\WEB-INF\\jsp", "-d", "E:\\develop\\workspace\\vue\\fis3-parser-vue-component\\test\\src\\html", 
                     "user\\apply.jsp" }; 
             jspc.setArgs(arg0);
 //            jspc.setUriroot("E:\\develop\\workespace\\letvgit\\zyuser\\ZYUser\\src\\main\\webapp\\WEB-INF\\jsp");//web应用的root目录  
